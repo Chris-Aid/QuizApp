@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
 body {
     background-color: #0054ff99 !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
 }
 
 .container {
@@ -11,6 +22,10 @@ body {
 
 .main-card {
     width: 35rem;
+}
+
+.progress {
+    margin-bottom: 12px;
 }
 
 .card-footer {
@@ -25,4 +40,65 @@ body {
 .quiz-answer-card:hover {
     cursor: pointer;
     background-color: #9190901c;
+}
+
+.endScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.endScreenContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 56px;
+}
+
+.your-score {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    gap: 18px;
+}
+
+
+.text {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(0 19 114);
+    cursor: pointer;
+}
+
+.score-btn {
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.btn-warning {
+    background-color: #ff9007 !important;
+}
+
+.score {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    background-color: #9141483b;
+    border-radius: 100%
+}
+
+.dontShow {
+    display: none;
 }
