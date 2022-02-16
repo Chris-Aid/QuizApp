@@ -102,3 +102,86 @@ p {
 .dontShow {
     display: none;
 }
+
+@media only screen and (max-width: 360px) {
+
+    h2 {
+        margin-top: 64px;
+    }
+
+    .overview {
+        height: 300px;
+        width: 300px;
+        margin-top: 125px;
+    }
+    
+    .endScreen {
+        height: auto !important;
+    }
+
+    .endScreenContent {
+        flex-direction: column;
+    }
+
+    .score {
+        flex-direction: column !important;
+    }
+
+    .brain {
+        width: 280px !important;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+
+    h2 {
+        margin-top: 64px;
+    }
+
+    .overview {
+        height: 300px;
+        width: 300px;
+        margin-top: 125px;
+    }
+    
+    .endScreen {
+        height: auto !important;
+    }
+
+    .endScreenContent {
+        flex-direction: column;
+    }
+
+    .score {
+        flex-direction: column !important;
+    }
+
+    .brain {
+        width: 280px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .overview {
+        height: 700px;
+        width: 700px;
+        margin-top: 125px;
+    }
+    .your-score {
+        width: 260px !important;
+        justify-content: center;
+    }
+    .score {
+        flex-direction: row !important;
+
+    }
+
+    .brain {
+        width: auto !important;
+    }
+}
